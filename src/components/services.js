@@ -1,10 +1,11 @@
+import Title from "./title";
+
 function Services() {
     return (  
 
         <section className="section services" id="services">
-      <div className="section-title">
-        <h2>our <span>services</span></h2>
-      </div>
+      
+      <Title first="our " second="services"></Title>
       <div className="section-center services-center">
         <article className="service">
           <span className="service-icon"><i className="fas fa-wallet fa-fw"></i></span>

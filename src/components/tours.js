@@ -1,9 +1,10 @@
+import Title from "./title";
+
 function Tours() {
     return (
         <section className="section" id="tours">
-        <div className="section-title">
-          <h2>featured <span>tours</span></h2>
-        </div>
+          <Title first="featured " second="tours"></Title>
+        
   
         <div className="section-center featured-center">
           <article className="tour-card">
