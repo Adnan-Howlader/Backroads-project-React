@@ -26,7 +26,17 @@ const services=[
 ]
 
 
+const tours=[
+    {id:1,date:"august 26th, 2020",title:"Tibet Adventure",
+    description:"Mojar Tibet Adeventure",location:"china",days:"6",price:"2100$"},
+    {id:2,date:"october 1th, 2020",title:"best of java",
+    description:"Mojar Tibet Adeventure",location:"indonesia",days:"11",price:"1400$"},
+    {id:3,date:"september 15th, 2020",title:"explore hong kong",
+    description:"Mojar Tibet Adeventure",location:"hongkong",days:"8",price:"5000$"},
+]
+
+
 
 //export all of them
 
-export {pagelink,sociallink,services} //named export
+export {pagelink,sociallink,services,tours} //named export
