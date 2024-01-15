@@ -12,8 +12,21 @@ const sociallink=[
     {id:2,href:"https://www.squarespace.com",icon:"fab fa-squarespace"}
 ]
 
+const services=[
+    {id:1, 
+    icon:"fas fa-wallet fa-fw",title_data:"saving money",
+    text_data:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia."},
+    {id:2, 
+    icon:"fas fa-tree fa-fw",title_data:"endless hiking",
+    text_data:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia."},
+    {id:3, 
+    icon:"fas fa-socks fa-fw",title_data:"amazing comfort",
+    text_data:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia."},
+  
+]
 
 
-//export both
 
-export {pagelink,sociallink} //named export
+//export all of them
+
+export {pagelink,sociallink,services} //named export
