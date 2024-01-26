@@ -1,3 +1,7 @@
+import tour1 from "./images/tour-1.jpeg"
+import tour2 from "./images/tour-2.jpeg"
+import tour3 from "./images/tour-3.jpeg"
+
 const pagelink=[
     {id:1,href:"#home",text:"home"},
     {id:2,href:"#about",text:"about"},
@@ -28,11 +32,11 @@ const services=[
 
 const tours=[
     {id:1,date:"august 26th, 2020",title:"Tibet Adventure",
-    description:"Mojar Tibet Adeventure",location:"china",days:"6",price:"2100$"},
+    description:"Mojar Tibet Adeventure",location:"china",days:"6",price:"2100$",img:tour1},
     {id:2,date:"october 1th, 2020",title:"best of java",
-    description:"Mojar Tibet Adeventure",location:"indonesia",days:"11",price:"1400$"},
+    description:"Mojar Tibet Adeventure",location:"indonesia",days:"11",price:"1400$",img:tour2},
     {id:3,date:"september 15th, 2020",title:"explore hong kong",
-    description:"Mojar Tibet Adeventure",location:"hongkong",days:"8",price:"5000$"},
+    description:"Mojar Tibet Adeventure",location:"hongkong",days:"8",price:"5000$",img:tour3},
 ]
 
 
